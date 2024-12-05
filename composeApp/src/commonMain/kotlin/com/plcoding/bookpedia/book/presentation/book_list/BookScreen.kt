@@ -3,6 +3,7 @@ package com.plcoding.bookpedia.book.presentation.book_list
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.plcoding.bookpedia.book.domain.Book
 import org.koin.compose.viewmodel.koinViewModel

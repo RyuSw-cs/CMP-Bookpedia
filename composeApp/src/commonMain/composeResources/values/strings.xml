@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- [KMP-10] 리소스 생성, 직접 values를 만들어서 사용 -->
+<resources>
+    <string name="search_hint">Search...</string>
+</resources>
