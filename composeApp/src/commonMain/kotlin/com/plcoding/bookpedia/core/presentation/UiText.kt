@@ -4,7 +4,6 @@ import androidx.compose.runtime.Composable
 import org.jetbrains.compose.resources.StringResource
 import org.jetbrains.compose.resources.stringResource
 
-
 sealed interface UiText {
     // 동적 문자열을 만들 수 있는 클래스
     data class DynamicString(val value: String): UiText
