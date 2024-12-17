@@ -14,3 +14,19 @@ data class BookListState(
     // 에러 상태
     val errorMessage : UiText? = null
 )
+
+val books = (1..100).map {
+    Book(
+        id = it.toString(),
+        title = "Book $it",
+        imageUrl = "https://test.com",
+        authors = listOf("Author $it"),
+        description = "Description $it",
+        averageRating = 4.9393,
+        languages = emptyList(),
+        firstPublishYear = null,
+        ratingCount = 5,
+        numPages = 100,
+        numEditions = 3
+    )
+}
